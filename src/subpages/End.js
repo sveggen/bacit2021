@@ -47,7 +47,9 @@ export default function End() {
                 name="message"
                 required
               />
-              <button className="btn btn-light mb-4 py-3">Send</button>
+              <div className="text-center">
+              <button className="btn btn-lg btn-light mb-4 py-3">Send</button>
+              </div>
             </form>
           </Fade>
         </div>
