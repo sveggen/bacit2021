@@ -10,6 +10,8 @@ function Team() {
           node {
             name
             img
+            text
+            linkedin
           }
         }
       }
@@ -22,7 +24,7 @@ function Team() {
           <h1 className="text-center my-4">Møt vårt team </h1>
           <div className="row my-5">
             {allTeamYaml.edges.map(({ node }) => {
-              return <TeamItem title={node.name} src={node.img} />
+              return <TeamItem title={node.name} src={node.img} text={node.text} linkedin={node.linkedin} />
             })}
           </div>
         </div>
