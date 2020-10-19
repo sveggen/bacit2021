@@ -10,27 +10,40 @@ export default function End() {
       <div className="container">
         <div className="flexbox">
           <Fade left>
-            <h1 className="text-center my-5">Stay in touch</h1>
-            <div className="row my-4">
-              <div className="col-lg-6 mb-4">
-                <input
-                  type="name"
-                  className="inputBox"
-                  placeholder="Your Name"
-                />
+            <h1 className="text-center my-5">Kontakt oss</h1>
+            <form
+              action="https://getform.io/f/7432f37c-dd0d-4aca-a522-8c8f5f8743ec"
+              method="POST"
+            >
+              <div className="row my-4">
+                <div className="col-lg-6 mb-4">
+                  <input
+                    type="name"
+                    className="inputBox"
+                    placeholder="Ditt Navn"
+                    name="name"
+                    required
+                  />
+                </div>
+                <div className="col-lg-6 mb-4">
+                  <input
+                    type="email"
+                    className="inputBox"
+                    placeholder="Din Epost"
+                    name="email"
+                    required
+                  />
+                </div>
               </div>
-              <div className="col-lg-6 mb-4">
-                <input
-                  type="email"
-                  className="inputBox"
-                  placeholder="Your Email"
-                />
-              </div>
-            </div>
-            <textarea rows = "2" className="inputBox mb-4" placeholder="Your Message" />
-            <button className="btn btn-light mb-4 py-3">
-              Submit
-            </button>
+              <textarea
+                rows="2"
+                className="inputBox mb-4"
+                placeholder="Din Melding"
+                name="message"
+                required
+              />
+              <button className="btn btn-light mb-4 py-3">Send</button>
+            </form>
           </Fade>
         </div>
       </div>
