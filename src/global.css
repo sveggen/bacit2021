@@ -57,3 +57,13 @@ footer{
 footer a {
   color: white
 }
+
+.linkColor {
+  color: turquoise
+}
+
+.inTheCenter {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
