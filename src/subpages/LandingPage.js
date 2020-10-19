@@ -16,7 +16,7 @@ function LandingPage() {
 
   const pageStyle = {
     backgroundImage:
-      "url(https://res.cloudinary.com/fishlogger/image/upload/v1603117063/IMG_1335_wrx0vm.jpg)",
+      "url(https://res.cloudinary.com/dxs9fgwzu/image/upload/v1603118668/nettsted/IMG_1335_kqtwmh.jpg)",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",

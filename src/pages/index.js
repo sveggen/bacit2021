@@ -5,12 +5,14 @@ import Services from "../subpages/Services";
 import Team from "../subpages/Team";
 import End from "../subpages/End";
 import Footer from "../components/Footer";
+import PCImage from "../subpages/PCImage";
 
 function Index() {
   return (
     <div>
       <LandingPage/>
       <Services/>
+      <PCImage />
       <Team/>
       <End/>
       <Footer/>
