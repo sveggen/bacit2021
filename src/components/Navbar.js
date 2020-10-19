@@ -14,24 +14,29 @@ function Navbar() {
           <ul class="navbar-nav">
             <li class="nav-item active">
               <AnchorLink class="nav-link" href="#">
-                Home <span class="sr-only">(current)</span>
+                Hjem <span class="sr-only">(current)</span>
               </AnchorLink>
             </li>
             <li class="nav-item">
               <AnchorLink class="nav-link" href="#services">
-                Services
+                Tjenester
               </AnchorLink>
             </li>
             <li class="nav-item">
               <AnchorLink class="nav-link" href="#team">
-                Team
+                Teamet
+              </AnchorLink>
+            </li>
+            <li class="nav-item">
+              <AnchorLink class="nav-link" href="#end">
+                Kontakt Oss
               </AnchorLink>
             </li>
           </ul>
         </div>
       </div>
       <nav className="navbar navbar-dark">
-        <h4 style={textStyle}>KRISP</h4>
+        <h4 style={textStyle}>transform it</h4>
         <button
           className="navbar-toggler"
           type="button"

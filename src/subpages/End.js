@@ -4,6 +4,7 @@ import Fade from "react-reveal/Fade"
 export default function End() {
   return (
     <div
+      id="end"
       className="container-fluid"
       style={{ backgroundColor: "#7E57C2", color: "white" }}
     >
