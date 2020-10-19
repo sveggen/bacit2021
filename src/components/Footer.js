@@ -1,5 +1,5 @@
 import React from "react"
-import { SocialIcon } from "react-social-icons"
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
 
@@ -8,13 +8,7 @@ function Footer() {
     <div>
       <footer className="py-2" style={{ backgroundColor: "#5E35B1" }}>
         <div className="container">
-          <p className="float-right">Krisp | © Copyright 2019</p>
-          <p>
-            Design Inspired from{" "}
-            <a href="https://graphicburger.com/cuda-single-page-portfolio-template/">
-              Cuda
-            </a>
-          </p>
+          <p className="float-right">transform it | © Copyright 2020</p>
           <div className="freepik">
             Icons made by{" "}
             <a
@@ -37,11 +31,16 @@ function Footer() {
             </a>
             <br />
             <br />
+            <br />
+            <div className="text-center">
+            <ul class="nav-item">
+              <AnchorLink class="nav-link" href="#home">
+                Gå til toppen
+              </AnchorLink>
+            </ul>
+            </div>
+            <br />
           </div>
-          <h6>
-            Created and Presented by{" "}
-            <a href="http://github.com/mohanmonu777">Mohan</a>
-          </h6>
         </div>
       </footer>
     </div>
