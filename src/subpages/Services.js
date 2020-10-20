@@ -31,7 +31,7 @@ function Services() {
           <h1 className="text-center my-5">Hvem er vi?</h1>
           <Fade right>
           </Fade>
-          <div className="row">
+          <div className="text-center row">
             {allServicesYaml.edges.map(({ node }) => {
               return <ServiceItem title={node.title} src={node.src} content={node.content} />
             })}

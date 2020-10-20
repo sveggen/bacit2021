@@ -9,14 +9,11 @@ export default function PCImage() {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         color: "white",
-        backgroundColor: "rgba(0, 0, 0, 0.6)",
-        backgroundBlendMode: "multiply",
+        backgroundColor: "#FFCD6C",
       }
 
       return (
         <section style={pageStyle} className = "container-fluid">
-          <div className="container">
-          </div>
         </section>
       )
   }
