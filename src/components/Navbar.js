@@ -19,7 +19,7 @@ function Navbar() {
             </li>
             <li class="nav-item">
               <AnchorLink class="nav-link" href="#services">
-                Hvem er vi?
+                Tjenester
               </AnchorLink>
             </li>
             <li class="nav-item">

@@ -6,7 +6,7 @@ export default function End() {
     <div
       id="end"
       className="container-fluid"
-      style={{ backgroundColor: "#1789FC", color: "white" }}
+      style={{ backgroundColor: "#7E57C2", color: "white" }}
     >
       <div className="container">
         <div className="flexbox">
@@ -47,9 +47,7 @@ export default function End() {
                 name="message"
                 required
               />
-              <div className="text-center">
-              <button className="btn btn-lg btn-light mb-4 py-3">Send</button>
-              </div>
+              <button className="btn btn-light mb-4 py-3">Send</button>
             </form>
           </Fade>
         </div>
