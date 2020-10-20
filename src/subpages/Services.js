@@ -6,15 +6,15 @@ import Fade from "react-reveal/Fade"
 
 function Services() {
 
-  const { aboutUsYaml } = useStaticQuery(graphql`
-  {
-    aboutUsYaml {
-      maintext
-    }
-  }
-`)
+//   const { aboutUsYaml } = useStaticQuery(graphql`
+//   {
+//     aboutUsYaml {
+//       maintext
+//     }
+//   }
+// `)
 
-const { maintext } = aboutUsYaml
+// const { maintext } = aboutUsYaml
 
 
   const { allServicesYaml } = useStaticQuery(graphql`
@@ -24,6 +24,7 @@ const { maintext } = aboutUsYaml
           node {
             title
             src
+            content
           }
         }
       }
@@ -40,11 +41,11 @@ const { maintext } = aboutUsYaml
         <div className="flexbox">
           <h1 className="text-center my-5">Hvem er vi?</h1>
           <Fade right>
-      <p className="text-center">{maintext}</p>
+      {/* <p className="text-center">{maintext}</p> */}
           </Fade>
           <div className="row">
             {allServicesYaml.edges.map(({ node }) => {
-              return <ServiceItem title={node.title} src={node.src} />
+              return <ServiceItem title={node.title} src={node.src} content={node.content} />
             })}
           </div>
         </div>
