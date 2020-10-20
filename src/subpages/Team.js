@@ -18,7 +18,7 @@ function Team() {
     }
   `)
   return (
-    <div id = "team" className="container-fluid" style={{ backgroundColor: "#AFECA4" }}>
+    <div id = "team" className="container-fluid" style={{ backgroundColor: "#FFCD6C" }}>
       <div className="container">
         <div className="flexbox">
           <h1 className="text-center my-4">Møt vårt team </h1>

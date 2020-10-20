@@ -6,7 +6,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 function Footer() {
   return (
     <div>
-      <footer className="py-2" style={{ backgroundColor: "#5E35B1" }}>
+      <footer className="py-2" style={{ backgroundColor: "#2E4057" }}>
         <div className="container">
           <p className="float-right">transform it | © Copyright 2020</p>
           <div className="freepik">

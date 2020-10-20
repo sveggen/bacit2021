@@ -6,7 +6,7 @@ export default function End() {
     <div
       id="end"
       className="container-fluid"
-      style={{ backgroundColor: "#7E57C2", color: "white" }}
+      style={{ backgroundColor: "#1789FC", color: "white" }}
     >
       <div className="container">
         <div className="flexbox">
