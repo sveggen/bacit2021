@@ -38,12 +38,12 @@ section {
 
 .inputBox{
   width: 100%;
-  background-color: #1c67b3;
+  background-color: white;
   border: none;
   border-radius: 10px;
   padding: 20px;
   text-decoration-color: white;
-  color: white
+  color: black
 }
 
 textarea:focus{
@@ -59,7 +59,7 @@ footer a {
 }
 
 .linkColor {
-  color: turquoise
+  color: #FFCD6C
 }
 
 .inTheCenter {

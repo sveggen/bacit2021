@@ -6,7 +6,7 @@ export default function End() {
     <div
       id="end"
       className="container-fluid"
-      style={{ backgroundColor: "#1789FC", color: "white" }}
+      style={{ backgroundColor: "rgba(0, 0, 0, 0.6)", color: "white" }}
     >
       <div className="container">
         <div className="flexbox">
@@ -14,7 +14,7 @@ export default function End() {
             <h1 className="text-center my-5">Kontakt oss</h1>
             <div className="text-center">
             <p>Dere kan kontakte oss via kontaktskjemaet under eller på epostadressen: 
-            <a className="linkColor" href="mailto:mail@mail.com"> mail@mail.com</a> </p>
+            <a className="linkColor" href="mailto:mail@mail.com"> transform-it@protonmail.com</a> </p>
             </div>
             <form
               action="https://getform.io/f/7432f37c-dd0d-4aca-a522-8c8f5f8743ec"
@@ -48,7 +48,7 @@ export default function End() {
                 required
               />
               <div className="text-center">
-              <button className="btn btn-lg btn-light mb-4 py-3">Send</button>
+              <button style={{backgroundColor: `#FFCD6C`}}className="btn btn-lg mb-4 py-3">Send</button>
               </div>
             </form>
           </Fade>
