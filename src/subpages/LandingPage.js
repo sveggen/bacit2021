@@ -17,7 +17,7 @@ function LandingPage() {
   const pageStyle = {
     backgroundImage:
       "url(https://res.cloudinary.com/dxs9fgwzu/image/upload/v1603118668/nettsted/IMG_1335_kqtwmh.jpg)",
-    backgroundSize: "100%",
+    backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
     color: "white",
