@@ -13,7 +13,7 @@ gatsby new bacit2021 https://github.com/sveggen/bacit2021
 
 **2. Gå inn i mappa**  
 ```
-cd Nettsted-IS-304
+cd bacit2021
 ```
 
 **3. Starter en lokal server på port 8000**  
