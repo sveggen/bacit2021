@@ -14,7 +14,7 @@ export default function End() {
             <h1 className="text-center my-5">Kontakt oss</h1>
             <div className="text-center">
             <p>Dere kan kontakte oss via kontaktskjemaet under eller på epostadressen: 
-            <a className="linkColor" href="mailto:transform-it@protonmail.com"> transform-it@protonmail.com</a> </p>
+            <br><a className="linkColor" href="mailto:transform-it@protonmail.com"> transform-it@protonmail.com</a> </p>
             </div>
             <form
               action="https://getform.io/f/7432f37c-dd0d-4aca-a522-8c8f5f8743ec"
